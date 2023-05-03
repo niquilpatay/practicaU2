@@ -9,4 +9,9 @@ public class Calculator
     {
         return a - b;
     }
+
+    private double multi(double a, double b)
+    {
+        return a * b;
+    }
 }
