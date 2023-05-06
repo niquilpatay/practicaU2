@@ -76,4 +76,14 @@ public class CalculatorTest
     {
         System.out.println("Ejecutando afterAll...");
     }
+
+    /*
+    Strategy: es un patrón de comportamiento que permite definir una familia de algoritmos, encapsularlos y hacerlos intercambiables. Se compone de tres elementos clave: la interfaz Strategy, que define la estructura básica para las implementaciones de estrategia, las clases de estrategia concretas que implementan esta interfaz, y el contexto, que utiliza un objeto Strategy para delegar un comportamiento específico.
+    //
+    Iterator: es un patrón de comportamiento que proporciona una forma de acceder secuencialmente a los elementos de una colección sin exponer su representación interna. Separa la responsabilidad de acceder y recorrer los elementos de la colección de la colección en sí, lo que permite que las colecciones se puedan modificar sin afectar la forma en que se accede a sus elementos.
+    //
+    Template Method: es un patrón comportamental que define el esqueleto de un algoritmo en una superclase, pero delega algunos pasos a las subclases. Permite que las subclases cambien el comportamiento de ciertas partes de un algoritmo sin cambiar su estructura general.
+    //
+     Factory Method: es un patrón creacional que proporciona una interfaz para crear objetos en una superclase, mientras permite a las subclases modificar el tipo de objetos que se crearán.
+     */
 }
